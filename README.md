@@ -69,8 +69,7 @@ Start → Control Panel → Administrative Tools → Internet Information Servic
 
 
 2. In the left panel, right-click on your computer name → Add FTP Site.
-   <img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/c8c12b42-0e22-4081-98e5-65ecf696943d" />
-
+   
 
 
 4. Enter:
@@ -78,9 +77,7 @@ Start → Control Panel → Administrative Tools → Internet Information Servic
 Site name = TestFTP (or any name)
 
 Physical path = create a folder like C:\FTPTest and select it.
-<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/4c3465db-4535-47bf-900a-84518f38e651" />
-
-
+  
 
 4. Click Next → Binding and SSL Settings:
 
@@ -89,7 +86,7 @@ IP Address = leave as default (All Unassigned).
 Port = 21 (default FTP port).
 
 SSL = “No SSL” (since this is just for lab testing).
-<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/da9801ad-75b5-42a2-96c3-cf84d3846afc" />
+
 
 
 
@@ -101,8 +98,6 @@ Authentication = Basic.
 Authorization = “Specified users” → enter your Windows username.
 
 Permissions = Read + Write.
-<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/1c46d76e-a93a-4cfd-87ac-985574791f46" />
-
 
 
 6. Finish setup.
