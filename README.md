@@ -11,11 +11,14 @@
 
 2. Open Control Panel → Programs → Turn Windows features on or off.
 
+   <img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/60b55227-356a-46d4-8b28-9d24c9386acd" />
 
-3. Scroll down to Internet Information Services (IIS).
 
 
-4. Expand it and check these boxes:
+4. Scroll down to Internet Information Services (IIS).
+
+
+5. Expand it and check these boxes:
 
 Web Management Tools → IIS Management Console
 
@@ -23,9 +26,13 @@ World Wide Web Services → Application Development + Common HTTP Features
 
 FTP Server → FTP Service + FTP Extensibility
 
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/10ad33dd-de68-4969-a022-fb02c0a58546" />
+
+
 
 
 5. Click OK and let Windows install the components.
+6. let it restart!
 
 
 
@@ -42,6 +49,9 @@ FTP Server → FTP Service + FTP Extensibility
 
 3. If IIS is installed, you’ll see the default IIS Welcome Page.
 
+   <img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/62567a71-add1-41c8-b76c-eca5108deaec" />
+
+
 
 
 This proves the IIS web server is running.
@@ -55,16 +65,20 @@ This proves the IIS web server is running.
 
 Start → Control Panel → Administrative Tools → Internet Information Services (IIS) Manager.
 
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/4b63738f-41bc-4c8e-a68d-b79ec8bcf453" />
 
 
 2. In the left panel, right-click on your computer name → Add FTP Site.
+   <img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/c8c12b42-0e22-4081-98e5-65ecf696943d" />
 
 
-3. Enter:
+
+4. Enter:
 
 Site name = TestFTP (or any name)
 
 Physical path = create a folder like C:\FTPTest and select it.
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/4c3465db-4535-47bf-900a-84518f38e651" />
 
 
 
@@ -75,6 +89,8 @@ IP Address = leave as default (All Unassigned).
 Port = 21 (default FTP port).
 
 SSL = “No SSL” (since this is just for lab testing).
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/da9801ad-75b5-42a2-96c3-cf84d3846afc" />
+
 
 
 
