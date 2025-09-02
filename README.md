@@ -66,7 +66,7 @@ This proves the IIS web server is running.
 
 📂 Step 3 — Configure FTP Server in IIS
 
-step3.1
+
 ---
 Create a new FTP-only user
 
@@ -166,9 +166,12 @@ ftp localhost
 
 
 3. Log in using the username + password you configured.
+   <img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/fd6c434c-0b9d-4f23-bb25-98f7cdd55516" />
 
 
-4. You should be able to upload/download files to C:\FTPTest.
+
+5. You should be able to upload/download files to C:\FTPTest.
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/3db0ad1b-8507-40a5-b729-7cbd836d3f00" />
 
 
 If Issue OF User doesnot exist follow this:
@@ -266,7 +269,7 @@ Hostname binding isn’t blank, or
                   
                   
  ---
- 🔍 Step 5 — Confirm Networking for Assignment
+ 🔍 Step 5 — Confirm Networking
 
  
  Make sure Kali and Metasploitable are on the same NAT network as Windows 7 (as per Step 3 in your assignment).
