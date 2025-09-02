@@ -15,6 +15,11 @@
 
 
 
+
+---
+
+
+
 4. Scroll down to Internet Information Services (IIS).
 
 
@@ -61,6 +66,37 @@ This proves the IIS web server is running.
 
 📂 Step 3 — Configure FTP Server in IIS
 
+step3.1
+---
+Create a new FTP-only user
+
+1. Go to Control Panel → User Accounts → Manage another account.
+
+
+2. Click Create a new account.
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/6f4db228-7f26-4799-8360-988af2c30020" />
+
+
+
+4. Name it ftpuser.
+
+
+5. Select Standard user/ administrator right if you want to give.
+
+
+6. After it’s created, click it → Create a password.
+   
+
+Example: Password123.
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/f6498cf8-cc68-4dee-83d2-ac57e73f9294" />
+
+
+
+
+
+
+---
+
 1. Open IIS Manager:
 
 Start → Control Panel → Administrative Tools → Internet Information Services (IIS) Manager.
@@ -69,6 +105,10 @@ Start → Control Panel → Administrative Tools → Internet Information Servic
 
 
 2. In the left panel, right-click on your computer name → Add FTP Site.
+
+   <img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/80a9e3eb-e6d8-4619-be06-175c70f9c98b" />
+
+
    
 
 
@@ -77,7 +117,9 @@ Start → Control Panel → Administrative Tools → Internet Information Servic
 Site name = TestFTP (or any name)
 
 Physical path = create a folder like C:\FTPTest and select it.
-  
+
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/93f659ac-ec80-40fe-8c33-50e924fc7280" />
+
 
 4. Click Next → Binding and SSL Settings:
 
@@ -86,6 +128,9 @@ IP Address = leave as default (All Unassigned).
 Port = 21 (default FTP port).
 
 SSL = “No SSL” (since this is just for lab testing).
+
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/d7fcfb3b-7c5f-4267-b4fc-25763745f238" />
+
 
 
 
@@ -98,6 +143,9 @@ Authentication = Basic.
 Authorization = “Specified users” → enter your Windows username.
 
 Permissions = Read + Write.
+
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/d848e4b0-f28e-4669-9639-ec31ade324ba" />
+
 
 
 6. Finish setup.
