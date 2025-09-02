@@ -101,6 +101,7 @@ Authentication = Basic.
 Authorization = “Specified users” → enter your Windows username.
 
 Permissions = Read + Write.
+<img width="1022" height="858" alt="" src="https://github.com/user-attachments/assets/1c46d76e-a93a-4cfd-87ac-985574791f46" />
 
 
 
